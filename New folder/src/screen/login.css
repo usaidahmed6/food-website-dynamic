@@ -1,0 +1,132 @@
+/* .main{
+  background: linear-gradient(270deg, #000000f5, #f10eab, black);
+  height: 1000px;
+  margin-top: -1001px !important;
+} */
+.login-Div{
+  margin-top: 100px !important;
+  border: 2px solid #d1cfcf;
+  width: 40%;
+  border-radius: 20px;
+  text-align: center;
+  display: block !important;
+  overflow: hidden;
+  margin: auto;
+  height: auto !important;
+ 
+  
+}
+
+
+.login-form{
+  /* display: inline-block !important; */
+  margin-right: 64px !important;
+}
+.H-login{
+       margin: 40px 0px;
+       font-size: 55px;
+
+}
+.login-gmail , .login-pasword{
+  margin: 57px 0px !important;
+  font-weight: 200px;
+}
+
+
+.register-btn{
+    font-size: 15px;
+}
+
+.btn-ant-login{
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.logoGoogle{
+  height: 29px;
+  padding: 2px;
+  margin: 0px;
+  width: 30px;
+}
+.googlebtn:hover{
+cursor: pointer;
+}
+.margin{
+  width: 100% !important;
+  /* margin: auto !important; */
+  margin: 20px -30px !important;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .login-Div { 
+      margin-top: 100px !important;
+      border: 2px solid #cacaca;
+      width: 80%;
+      border-radius: 20px;
+      text-align: center;
+      display: block !important;
+      overflow: hidden;
+      margin: auto;
+      height: auto !important;
+     
+     
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .login-Div { 
+      margin-top: 100px !important;
+      border: 2px solid #cacaca;
+      width: 100% !important;
+      border-radius: 20px;
+      text-align: center;
+      display: block !important;
+      overflow: hidden;
+      margin: auto;
+      height: auto !important;
+     
+     
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .login-Div { 
+      margin-top: 100px !important;
+      border: 2px solid #cacaca;
+      width: 80% !important;
+      border-radius: 20px;
+      text-align: center;
+      display: block !important;
+      overflow: hidden;
+      margin: auto;
+      height: auto !important;
+     
+     
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .login-form  { 
+      margin-right: 0px !important;
+     
+     
+    }
+  }
+
+  @media screen and (max-width : 600px){
+    .login-gmail , .login-pasword{
+      margin: 57px 10px !important;
+    }
+  }
+
+  @media screen and (max-width : 450px){
+    .googlebtn , .btn-login-sum{
+     width: 100%;
+     margin: 20px 0px ;
+     margin-left: 0px !important;
+    }
+  }
+  .ant-form-item-control-input {
+    display: flex !important;
+   text-align: center !important;
+  }
+ 

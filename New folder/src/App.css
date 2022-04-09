@@ -1,0 +1,46 @@
+
+.main{
+  margin-top: 80px;
+  overflow: hidden;
+}
+
+
+
+.spin{
+  display: block !important;
+  margin: auto;
+  margin-top: 248px !important
+}
+.dynamicImg{
+  display: inline-block;
+ 
+}
+.desc{
+  display: inline-block;
+}
+.ant-image {
+  position: relative !important;
+  display: block !important;
+  margin: auto !important; 
+}
+.ant-image-mask {
+  left: 16px !important;
+}
+.card-div-shop{
+  width: 400px;
+  height: 510px;
+  display: inline-block;
+  margin: 20px 20px !important;
+}
+.shop_img{
+  margin-left: -1px !important;
+  width: 349px !important;
+  height: 245px !important;
+  margin-top: 11px;
+  /* height: auto !important; */
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}

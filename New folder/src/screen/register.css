@@ -1,0 +1,89 @@
+.register-div{
+    margin-top: 100px !important;
+    border: 2px solid #d1cfcf;
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+    display: block !important;
+    overflow: hidden;
+    margin: auto;
+    height: auto !important;
+   
+}
+
+.H-Register{
+    margin: 40px 0px;
+    font-size: 55px;
+
+}
+.ant-form-item-control-input{
+  display: flex !important;
+  text-align: left;
+}
+
+
+.register-form{
+    margin-right: 64px !important;
+  }
+
+  .register-gmail , .register-pasword, .register-name {
+    margin: 37px 0px !important;
+    font-weight: 200px;
+  }
+
+
+
+
+
+  @media only screen and (max-width: 1000px) {
+    .register-div { 
+      margin-top: 100px !important;
+      border: 2px solid #d1cfcf;
+      width: 80%;
+      border-radius: 20px;
+      text-align: center;
+      display: block !important;
+      overflow: hidden;
+      margin: auto;
+      height: auto !important;
+     
+     
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .register-div { 
+      margin-top: 100px !important;
+      border: 2px solid #d1cfcf;
+      width: 100% !important;
+      border-radius: 20px;
+      text-align: center;
+      display: block !important;
+      overflow: hidden;
+      margin: auto;
+      height: auto !important;
+     
+     
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .register-form  { 
+      margin-right: 0px !important;
+     
+     
+    }
+  }
+  /* @media screen and (max-width : 600px){
+    .register-gmail , .register-pasword, .register-name{
+      margin: 57px 10px !important;
+    }
+  } */
+
+  @media screen and (max-width : 575px){
+    .btn-register-sum , .back-btn, .ant-col-offset-8{
+      width: 100% !important;
+     margin-left: 0px  !important;
+    }
+  }
